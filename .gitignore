@@ -1,0 +1,25 @@
+# Secrets — NEVER commit (webhook lives here locally; in cloud it's a repo secret)
+.env
+
+# Virtualenv
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Large data caches (rebuilt / cached in CI, not committed)
+data/raw/
+data/features/
+data/predictions/
+data/staging/
+tools/out/
+
+# Personal betting log
+*.xlsx
+
+# Keep the trained model (small) — force-tracked despite data/ rules above
+!data/models/
+!data/models/production/
+!data/models/production/*.txt
+!data/models/production/*.json

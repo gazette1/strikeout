@@ -1,0 +1,286 @@
+# Feature engineering configuration — all 40 features from blueprint Section 5
+
+feature_groups:
+  pitcher_ability:
+    features:
+      - name: k_per_9_rolling
+        id: 1
+        window: season_ewm
+        ewm_lambda: 0.92
+        fallback: [prior_season, league_avg]
+        league_avg_key: k_per_9
+
+      - name: swstr_pct
+        id: 2
+        window: rolling_pitches
+        window_size: 200
+        expanded_window: 500
+        fallback: [expanded_window, league_avg]
+        league_avg_key: swstr_pct
+
+      - name: csw_pct
+        id: 3
+        window: rolling_pitches
+        window_size: 300
+        expanded_window: 500
+        fallback: [expanded_window, league_avg]
+        league_avg_key: csw_pct
+
+      - name: pitch_mix_k_profile
+        id: 4
+        window: season_to_date
+        fallback: [prior_season, league_avg]
+
+      - name: fb_velo_avg
+        id: 5
+        window: last_n_starts
+        n_starts: 3
+        fallback: [season_avg, league_avg]
+
+      - name: fb_velo_max
+        id: 6
+        window: last_n_starts
+        n_starts: 3
+        fallback: [season_avg, league_avg]
+
+      - name: fb_spin_rate
+        id: 7
+        window: last_n_starts
+        n_starts: 3
+        fallback: [season_avg, league_avg]
+        league_avg_key: fb_spin_rate
+
+      - name: vaa_fastball
+        id: 8
+        window: last_n_starts
+        n_starts: 3
+        fallback: [velo_regression, league_avg]
+
+      - name: ivb_delta
+        id: 9
+        window: season_to_date
+        fallback: [zero]
+
+      - name: hb_delta
+        id: 10
+        window: season_to_date
+        fallback: [zero]
+
+      - name: release_point_consistency
+        id: 11
+        window: last_n_starts
+        n_starts: 3
+        fallback: [league_median]
+
+      - name: arm_slot_drift
+        id: 12
+        window: last_n_starts
+        n_starts: 3
+        fallback: [zero]
+
+      - name: tunneling_efficiency
+        id: 13
+        window: last_n_starts
+        n_starts: 3
+        fallback: [league_median]
+
+      - name: two_strike_putaway_rate
+        id: 14
+        window: season_ewm
+        ewm_lambda: 0.90
+        fallback: [prior_season, league_avg]
+        league_avg_key: putaway_rate
+
+  recent_form:
+    features:
+      - name: k_rate_last_5
+        id: 15
+        window: last_n_starts
+        n_starts: 5
+        weighting: linear_recency
+        fallback: [season_k9, prior_season]
+
+      - name: recent_pitch_count_trend
+        id: 16
+        window: last_n_starts
+        n_starts: 5
+        fallback: [zero]
+
+      - name: ip_per_start
+        id: 17
+        window: blended
+        recent_weight: 0.6
+        season_weight: 0.4
+        n_starts: 5
+        fallback: [season_mean, prior_season, league_avg]
+        league_avg_key: ip_per_start
+
+      - name: days_rest
+        id: 18
+        window: point_in_time
+        fallback: [default_5]
+
+  opponent_profile:
+    features:
+      - name: opp_team_k_rate_vs_hand
+        id: 19
+        window: season_to_date
+        fallback: [overall_team_k, league_avg]
+        league_avg_key: team_k_pct
+
+      - name: opp_o_swing_pct
+        id: 20
+        window: season_to_date
+        fallback: [league_avg]
+        league_avg_key: o_swing_pct
+
+      - name: opp_z_contact_pct
+        id: 21
+        window: season_to_date
+        fallback: [league_avg]
+        league_avg_key: z_contact_pct
+
+      - name: opp_contact_rate
+        id: 22
+        window: season_to_date
+        fallback: [league_avg]
+        league_avg_key: contact_pct
+
+      - name: projected_lineup_weighted_k_rate
+        id: 23
+        window: season_to_date
+        fallback: [team_k_pct]
+
+      - name: opp_whiff_vs_pitch_types
+        id: 24
+        window: season_to_date
+        fallback: [league_avg_by_pitch_type]
+
+      - name: opp_chase_vs_velo_band
+        id: 25
+        window: season_to_date
+        fallback: [overall_team_o_swing]
+
+      - name: lineup_handedness_stack
+        id: 26
+        window: day_of
+        fallback: [neutral_4]
+
+      - name: opp_plate_discipline_variance
+        id: 27
+        window: season_to_date
+        fallback: [league_median]
+
+      - name: lineup_sub_risk
+        id: 28
+        window: last_14_days
+        fallback: [league_avg]
+        league_avg_key: lineup_sub_risk
+
+      - name: matchup_familiarity
+        id: 29
+        window: season_to_date
+        fallback: [zero]
+
+      - name: opp_travel_fatigue
+        id: 30
+        window: last_3_days
+        fallback: [zero]
+
+      - name: opp_game_importance
+        id: 31
+        window: current_standings
+        fallback: [zero]
+
+  contextual:
+    features:
+      - name: park_k_factor
+        id: 32
+        window: 3_year_avg
+        fallback: [neutral_100]
+
+      - name: ump_k_boost
+        id: 33
+        window: rolling_2_season
+        min_games: 20
+        fallback: [native_nan]
+
+      - name: temperature_f
+        id: 34
+        window: game_day
+        fallback: [seasonal_avg, dome_default]
+
+      - name: humidity_pct
+        id: 35
+        window: game_day
+        fallback: [seasonal_avg, dome_default]
+
+      - name: pitcher_leash
+        id: 36
+        window: last_2_team_games
+        fallback: [neutral_1]
+
+  battery_effects:
+    features:
+      - name: catcher_framing_runs
+        id: 37
+        window: season_to_date
+        fallback: [native_nan]
+
+      - name: battery_k_rate_together
+        id: 38
+        window: season_plus_prior
+        fallback: [pitcher_overall_k9]
+
+      - name: battery_k_rate_delta
+        id: 39
+        window: season_plus_prior
+        fallback: [native_nan]
+
+      - name: catcher_game_calling_aggression
+        id: 40
+        window: last_30_catcher_games
+        fallback: [native_nan]
+
+# Ordered list of all feature column names for the model
+feature_columns:
+  - k_per_9_rolling
+  - swstr_pct
+  - csw_pct
+  - pitch_mix_k_profile
+  - fb_velo_avg
+  - fb_velo_max
+  - fb_spin_rate
+  - vaa_fastball
+  - ivb_delta
+  - hb_delta
+  - release_point_consistency
+  - arm_slot_drift
+  - tunneling_efficiency
+  - two_strike_putaway_rate
+  - k_rate_last_5
+  - recent_pitch_count_trend
+  - ip_per_start
+  - days_rest
+  - opp_team_k_rate_vs_hand
+  - opp_o_swing_pct
+  - opp_z_contact_pct
+  - opp_contact_rate
+  - projected_lineup_weighted_k_rate
+  - opp_whiff_vs_pitch_types
+  - opp_chase_vs_velo_band
+  - lineup_handedness_stack
+  - opp_plate_discipline_variance
+  - lineup_sub_risk
+  - matchup_familiarity
+  - opp_travel_fatigue
+  - opp_game_importance
+  - park_k_factor
+  - ump_k_boost
+  - temperature_f
+  - humidity_pct
+  - pitcher_leash
+  - catcher_framing_runs
+  - battery_k_rate_together
+  - battery_k_rate_delta
+  - catcher_game_calling_aggression

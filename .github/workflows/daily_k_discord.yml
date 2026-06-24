@@ -1,0 +1,50 @@
+name: Daily K Picks to Discord
+
+on:
+  schedule:
+    # 13:00 UTC ≈ 9:00 AM ET during the season (DST). Runs daily; the script
+    # self-skips on days with no MLB games, so it only posts on game days.
+    - cron: '0 13 * * *'
+  workflow_dispatch:        # allows manual "Run workflow" from the Actions tab
+
+concurrency:
+  group: daily-k-picks
+  cancel-in-progress: false
+
+jobs:
+  picks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install pybaseball MLB-StatsAPI lightgbm scikit-learn pandas pyarrow numpy requests
+
+      - name: Restore Statcast cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw/statcast
+          key: statcast-${{ github.run_id }}
+          restore-keys: |
+            statcast-
+
+      - name: Bootstrap history on first run (if cache empty)
+        run: |
+          n=$(ls data/raw/statcast/20*-*.parquet 2>/dev/null | wc -l)
+          echo "Cached months: $n"
+          if [ "$n" -lt 16 ]; then
+            echo "Cold cache — backfilling 2024-2026 (one-time, a few minutes)..."
+            python tools/backfill_statcast.py 2024 2025 2026
+          fi
+
+      - name: Send daily picks to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PYTHONUTF8: '1'
+        run: python tools/daily_picks.py

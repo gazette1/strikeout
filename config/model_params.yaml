@@ -1,0 +1,61 @@
+# LightGBM hyperparameters — from blueprint Section 6.4
+lightgbm:
+  # Shared base params
+  base:
+    boosting_type: gbdt
+    num_leaves: 63
+    max_depth: -1
+    learning_rate: 0.05
+    n_estimators: 1000
+    feature_fraction: 0.8
+    bagging_fraction: 0.8
+    bagging_freq: 5
+    min_child_samples: 20
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    verbose: -1
+    seed: 42
+    deterministic: true
+    force_row_wise: true
+
+  # Median prediction (primary model)
+  median:
+    objective: quantile
+    alpha: 0.50
+    metric: quantile
+
+  # Lower bound (5th percentile)
+  lower:
+    objective: quantile
+    alpha: 0.05
+    metric: quantile
+
+  # Upper bound (95th percentile)
+  upper:
+    objective: quantile
+    alpha: 0.95
+    metric: quantile
+
+# Training params
+training:
+  early_stopping_rounds: 50
+  num_boost_round: 1000
+
+# Ridge stacking layer
+stacking:
+  alpha: 1.0  # Ridge regularization
+  fit_intercept: true
+
+# Optuna hyperparameter tuning
+tuning:
+  n_trials: 100
+  timeout_seconds: 3600
+  study_name: mlb_k_predictor_tuning
+  search_space:
+    num_leaves: [31, 127]
+    learning_rate: [0.01, 0.1]
+    feature_fraction: [0.6, 1.0]
+    bagging_fraction: [0.6, 1.0]
+    min_child_samples: [5, 50]
+    reg_alpha: [0.0, 1.0]
+    reg_lambda: [0.0, 5.0]

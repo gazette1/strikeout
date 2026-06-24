@@ -1,0 +1,282 @@
+# MLB Ballpark configuration — all 30 current stadiums
+# lat/lon: ballpark home plate approximate coordinates
+# elevation_m: meters above sea level
+# roof_type: "open" | "retractable" | "fixed"
+
+ballparks:
+
+  # ── American League East ──────────────────────────────────
+  - team: BAL
+    venue: Oriole Park at Camden Yards
+    latitude: 39.2838
+    longitude: -76.6217
+    elevation_m: 12
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: BOS
+    venue: Fenway Park
+    latitude: 42.3467
+    longitude: -71.0972
+    elevation_m: 5
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: NYY
+    venue: Yankee Stadium
+    latitude: 40.8296
+    longitude: -73.9262
+    elevation_m: 18
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: TB
+    venue: Tropicana Field
+    latitude: 27.7683
+    longitude: -82.6534
+    elevation_m: 13
+    is_dome: true
+    roof_type: fixed
+    timezone: America/New_York
+
+  - team: TOR
+    venue: Rogers Centre
+    latitude: 43.6414
+    longitude: -79.3894
+    elevation_m: 76
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Toronto
+
+  # ── American League Central ───────────────────────────────
+  - team: CWS
+    venue: Guaranteed Rate Field
+    latitude: 41.8299
+    longitude: -87.6338
+    elevation_m: 182
+    is_dome: false
+    roof_type: open
+    timezone: America/Chicago
+
+  - team: CLE
+    venue: Progressive Field
+    latitude: 41.4962
+    longitude: -81.6852
+    elevation_m: 200
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: DET
+    venue: Comerica Park
+    latitude: 42.3390
+    longitude: -83.0485
+    elevation_m: 183
+    is_dome: false
+    roof_type: open
+    timezone: America/Detroit
+
+  - team: KC
+    venue: Kauffman Stadium
+    latitude: 39.0517
+    longitude: -94.4803
+    elevation_m: 330
+    is_dome: false
+    roof_type: open
+    timezone: America/Chicago
+
+  - team: MIN
+    venue: Target Field
+    latitude: 44.9817
+    longitude: -93.2781
+    elevation_m: 260
+    is_dome: false
+    roof_type: open
+    timezone: America/Chicago
+
+  # ── American League West ──────────────────────────────────
+  - team: HOU
+    venue: Minute Maid Park
+    latitude: 29.7573
+    longitude: -95.3555
+    elevation_m: 12
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Chicago
+
+  - team: LAA
+    venue: Angel Stadium
+    latitude: 33.8003
+    longitude: -117.8827
+    elevation_m: 46
+    is_dome: false
+    roof_type: open
+    timezone: America/Los_Angeles
+
+  - team: OAK
+    venue: Oakland Coliseum
+    latitude: 37.7516
+    longitude: -122.2005
+    elevation_m: 4
+    is_dome: false
+    roof_type: open
+    timezone: America/Los_Angeles
+
+  - team: SEA
+    venue: T-Mobile Park
+    latitude: 47.5914
+    longitude: -122.3325
+    elevation_m: 4
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Los_Angeles
+
+  - team: TEX
+    venue: Globe Life Field
+    latitude: 32.7473
+    longitude: -97.0831
+    elevation_m: 168
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Chicago
+
+  # ── National League East ──────────────────────────────────
+  - team: ATL
+    venue: Truist Park
+    latitude: 33.8908
+    longitude: -84.4678
+    elevation_m: 305
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: MIA
+    venue: loanDepot park
+    latitude: 25.7781
+    longitude: -80.2197
+    elevation_m: 2
+    is_dome: true
+    roof_type: retractable
+    timezone: America/New_York
+
+  - team: NYM
+    venue: Citi Field
+    latitude: 40.7571
+    longitude: -73.8458
+    elevation_m: 10
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: PHI
+    venue: Citizens Bank Park
+    latitude: 39.9061
+    longitude: -75.1665
+    elevation_m: 11
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: WSH
+    venue: Nationals Park
+    latitude: 38.8730
+    longitude: -77.0074
+    elevation_m: 8
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  # ── National League Central ───────────────────────────────
+  - team: CHC
+    venue: Wrigley Field
+    latitude: 41.9484
+    longitude: -87.6553
+    elevation_m: 182
+    is_dome: false
+    roof_type: open
+    timezone: America/Chicago
+
+  - team: CIN
+    venue: Great American Ball Park
+    latitude: 39.0979
+    longitude: -84.5082
+    elevation_m: 148
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: MIL
+    venue: American Family Field
+    latitude: 43.0280
+    longitude: -87.9712
+    elevation_m: 185
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Chicago
+
+  - team: PIT
+    venue: PNC Park
+    latitude: 40.4469
+    longitude: -80.0057
+    elevation_m: 225
+    is_dome: false
+    roof_type: open
+    timezone: America/New_York
+
+  - team: STL
+    venue: Busch Stadium
+    latitude: 38.6226
+    longitude: -90.1928
+    elevation_m: 141
+    is_dome: false
+    roof_type: open
+    timezone: America/Chicago
+
+  # ── National League West ──────────────────────────────────
+  - team: ARI
+    venue: Chase Field
+    latitude: 33.4453
+    longitude: -112.0667
+    elevation_m: 331
+    is_dome: true
+    roof_type: retractable
+    timezone: America/Phoenix
+
+  - team: COL
+    venue: Coors Field
+    latitude: 39.7559
+    longitude: -104.9942
+    elevation_m: 1580
+    is_dome: false
+    roof_type: open
+    timezone: America/Denver
+
+  - team: LAD
+    venue: Dodger Stadium
+    latitude: 34.0739
+    longitude: -118.2400
+    elevation_m: 162
+    is_dome: false
+    roof_type: open
+    timezone: America/Los_Angeles
+
+  - team: SD
+    venue: Petco Park
+    latitude: 32.7076
+    longitude: -117.1570
+    elevation_m: 7
+    is_dome: false
+    roof_type: open
+    timezone: America/Los_Angeles
+
+  - team: SF
+    venue: Oracle Park
+    latitude: 37.7786
+    longitude: -122.3893
+    elevation_m: 2
+    is_dome: false
+    roof_type: open
+    timezone: America/Los_Angeles

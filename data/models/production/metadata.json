@@ -1,0 +1,104 @@
+{
+  "features": [
+    "k_pct_career",
+    "swstr_pct",
+    "csw_pct",
+    "putaway_rate",
+    "bf_per_start",
+    "k_last3",
+    "fb_velo_asof",
+    "days_rest",
+    "opp_k_pct",
+    "opp_k_pct_vs_hand",
+    "is_home",
+    "n_prior_starts"
+  ],
+  "target": "K",
+  "trained_rows": 8954,
+  "date_range": [
+    "2024-03-31",
+    "2025-10-31"
+  ],
+  "walk_forward": {
+    "n": 4808,
+    "MAE": 1.824,
+    "RMSE": 2.29,
+    "cov90": 85.6,
+    "baseline_MAE": 1.823,
+    "OU_acc": 72.1
+  },
+  "per_month": [
+    {
+      "n": 348,
+      "MAE": 1.764,
+      "RMSE": 2.217,
+      "cov90": 86.5,
+      "baseline_MAE": 1.86,
+      "OU_acc": 72.8,
+      "month": "2025-03"
+    },
+    {
+      "n": 730,
+      "MAE": 1.909,
+      "RMSE": 2.397,
+      "cov90": 84.1,
+      "baseline_MAE": 1.856,
+      "OU_acc": 70.5,
+      "month": "2025-04"
+    },
+    {
+      "n": 766,
+      "MAE": 1.829,
+      "RMSE": 2.248,
+      "cov90": 85.8,
+      "baseline_MAE": 1.814,
+      "OU_acc": 71.9,
+      "month": "2025-05"
+    },
+    {
+      "n": 730,
+      "MAE": 1.811,
+      "RMSE": 2.31,
+      "cov90": 86.8,
+      "baseline_MAE": 1.789,
+      "OU_acc": 72.8,
+      "month": "2025-06"
+    },
+    {
+      "n": 688,
+      "MAE": 1.729,
+      "RMSE": 2.177,
+      "cov90": 86.8,
+      "baseline_MAE": 1.757,
+      "OU_acc": 73.8,
+      "month": "2025-07"
+    },
+    {
+      "n": 776,
+      "MAE": 1.789,
+      "RMSE": 2.232,
+      "cov90": 85.3,
+      "baseline_MAE": 1.767,
+      "OU_acc": 72.0,
+      "month": "2025-08"
+    },
+    {
+      "n": 693,
+      "MAE": 1.875,
+      "RMSE": 2.373,
+      "cov90": 85.3,
+      "baseline_MAE": 1.892,
+      "OU_acc": 71.1,
+      "month": "2025-09"
+    },
+    {
+      "n": 77,
+      "MAE": 2.09,
+      "RMSE": 2.575,
+      "cov90": 75.3,
+      "baseline_MAE": 2.269,
+      "OU_acc": 71.7,
+      "month": "2025-10"
+    }
+  ]
+}
