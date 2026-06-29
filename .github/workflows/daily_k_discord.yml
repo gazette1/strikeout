@@ -34,6 +34,14 @@ jobs:
           restore-keys: |
             statcast-
 
+      - name: Restore picks/results history (for grading yesterday)
+        uses: actions/cache@v4
+        with:
+          path: data/predictions
+          key: predictions-${{ github.run_id }}
+          restore-keys: |
+            predictions-
+
       - name: Bootstrap history on first run (if cache empty)
         run: |
           n=$(ls data/raw/statcast/20*-*.parquet 2>/dev/null | wc -l)
@@ -43,8 +51,10 @@ jobs:
             python tools/backfill_statcast.py 2024 2025 2026
           fi
 
-      - name: Send daily picks to Discord
+      - name: Grade yesterday's picks, then post today's
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PYTHONUTF8: '1'
-        run: python tools/daily_picks.py
+        run: |
+          python tools/results.py || true   # grade yesterday (skips if none saved)
+          python tools/daily_picks.py        # post today's picks

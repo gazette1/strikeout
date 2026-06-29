@@ -210,7 +210,7 @@ def main():
             }
             X = pd.DataFrame([feat])[FEATURES]
             lo, md, hi = predict(models, X)
-            r = {"pitcher": pname, "opp": opp, "hand": hand,
+            r = {"pitcher": pname, "pitcher_id": int(ps["pitcher"]), "opp": opp, "hand": hand,
                  "proj": round(float(md[0]), 1), "lo": round(float(lo[0]), 1),
                  "hi": round(float(hi[0]), 1)}
             if key in lines:
@@ -258,6 +258,18 @@ def main():
     if not have:
         print("No actionable plays (off-day or probables not posted) — skipping Discord send.")
         return
+
+    # persist the posted picks so results.py can grade them later
+    posted = (flagged if lines else have[:args.top])
+    picks_dir = ROOT / "data" / "predictions"
+    picks_dir.mkdir(parents=True, exist_ok=True)
+    save = [{"pitcher": r["pitcher"], "pitcher_id": r.get("pitcher_id"),
+             "opp": r["opp"], "line": r.get("line", r.get("conf_line")),
+             "proj": r["proj"], "lo": r["lo"], "hi": r["hi"],
+             "lean": r.get("lean", "OVER")} for r in posted]
+    (picks_dir / f"picks_{args.date}.json").write_text(
+        json.dumps({"date": args.date, "picks": save}, indent=2))
+
     if not args.dry_run:
         send_discord(url, title, body)
 
