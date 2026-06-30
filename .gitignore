@@ -11,9 +11,11 @@ __pycache__/
 # Large data caches (rebuilt / cached in CI, not committed)
 data/raw/
 data/features/
-data/predictions/
 data/staging/
 tools/out/
+
+# data/predictions/ IS tracked — it's the persistent picks + results record
+# (committed back by the cloud workflow each run so the rolling record survives)
 
 # Personal betting log
 *.xlsx

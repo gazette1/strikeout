@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-30",
+  "picks": [
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "PIT",
+      "line": 3.0,
+      "proj": 6.6,
+      "lo": 3.2,
+      "hi": 12.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "NYY",
+      "line": 3.0,
+      "proj": 7.1,
+      "lo": 3.0,
+      "hi": 12.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "DET",
+      "line": 2.5,
+      "proj": 6.9,
+      "lo": 2.7,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryan Woo",
+      "pitcher_id": 693433,
+      "opp": "LAA",
+      "line": 2.5,
+      "proj": 5.1,
+      "lo": 2.6,
+      "hi": 11.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jos\u00e9 Soriano",
+      "pitcher_id": 667755,
+      "opp": "SEA",
+      "line": 2.5,
+      "proj": 4.6,
+      "lo": 2.5,
+      "hi": 11.7,
+      "lean": "OVER"
+    }
+  ]
+}

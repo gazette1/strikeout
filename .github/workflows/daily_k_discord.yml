@@ -11,12 +11,15 @@ concurrency:
   group: daily-k-picks
   cancel-in-progress: false
 
+permissions:
+  contents: write              # allow committing the updated picks/results back
+
 jobs:
   picks:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4      # includes the committed model + state snapshot
+      - uses: actions/checkout@v4      # includes committed model, snapshot, and results log
 
       - uses: actions/setup-python@v5
         with:
@@ -26,14 +29,6 @@ jobs:
       - name: Install dependencies
         run: pip install pybaseball MLB-StatsAPI lightgbm scikit-learn pandas pyarrow numpy requests
 
-      - name: Restore picks/results history (to grade yesterday)
-        uses: actions/cache@v4
-        with:
-          path: data/predictions
-          key: predictions-${{ github.run_id }}
-          restore-keys: |
-            predictions-
-
       - name: Grade yesterday's picks, then post today's
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -41,3 +36,13 @@ jobs:
         run: |
           python tools/results.py || true   # grade yesterday (skips if none saved)
           python tools/daily_picks.py        # post today's picks (uses committed snapshot)
+
+      - name: Persist picks + results back to the repo
+        if: always()
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add data/predictions
+          git commit -m "Update picks/results $(date -u +%F)" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase --autostash origin main || true
+          git push || true

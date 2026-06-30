@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-29",
+  "picks": [
+    {
+      "pitcher": "George Kirby",
+      "pitcher_id": 669923,
+      "opp": "LAA",
+      "line": 2.5,
+      "proj": 5.1,
+      "lo": 2.6,
+      "hi": 12.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Aaron Nola",
+      "pitcher_id": 605400,
+      "opp": "PIT",
+      "line": 2.5,
+      "proj": 5.3,
+      "lo": 2.5,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Braxton Ashcraft",
+      "pitcher_id": 677952,
+      "opp": "PHI",
+      "line": 2.0,
+      "proj": 4.5,
+      "lo": 2.2,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "LAD",
+      "line": 2.0,
+      "proj": 6.1,
+      "lo": 2.1,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane Baz",
+      "pitcher_id": 669358,
+      "opp": "CWS",
+      "line": 2.0,
+      "proj": 5.5,
+      "lo": 2.0,
+      "hi": 9.0,
+      "lean": "OVER"
+    }
+  ]
+}
