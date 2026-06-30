@@ -35,6 +35,7 @@ from tools.build_dataset import (load_pitches, identify_starts, aggregate_starts
 from tools.backfill_statcast import pull_month
 
 MODELS = ROOT / "data" / "models" / "production"
+STATE = ROOT / "data" / "state"
 FEATURES = ["k_pct_career", "swstr_pct", "csw_pct", "putaway_rate", "bf_per_start",
             "k_last3", "fb_velo_asof", "days_rest", "opp_k_pct", "opp_k_pct_vs_hand",
             "is_home", "n_prior_starts"]
@@ -100,6 +101,7 @@ def pitcher_state(pitches):
         cum_K=("K", "sum"), cum_bf=("bf", "sum"), cum_pitches=("pitches", "sum"),
         cum_swstr=("swstr", "sum"), cum_csw=("csw", "sum"), cum_twok=("two_k_pa", "sum"),
         fb=("fb_velo", "mean"), nstarts=("K", "size"), last_date=("game_date", "max"),
+        p_throws=("p_throws", "last"),
     )
     st = st.join(last3)
     st["k_pct_career"] = st.cum_K / st.cum_bf
@@ -133,6 +135,34 @@ def norm(s):
     return " ".join(s.lower().replace(".", "").split())
 
 
+def load_state(args):
+    """Return (name_to_idx df, opp_k Series, opp_k_hand Series).
+    Prefers the committed snapshot in data/state/ (fast, no backfill); falls back
+    to computing from the full Statcast cache (refreshing the current month)."""
+    snap = STATE / "pitcher_state.parquet"
+    if snap.exists():
+        ps = pd.read_parquet(snap)
+        ps["last_date"] = pd.to_datetime(ps["last_date"])
+        opp_k = pd.read_parquet(STATE / "team_overall.parquet").set_index("bat_team")["opp_k_pct"]
+        vh = pd.read_parquet(STATE / "team_vs_hand.parquet")
+        opp_k_hand = vh.set_index(["bat_team", "p_throws"])["opp_k_pct_vs_hand"]
+        print(f"Loaded snapshot state: {len(ps)} pitchers (as of {ps['last_date'].max().date()})")
+        return ps.set_index("name_key"), opp_k, opp_k_hand
+
+    # fallback: compute from cache
+    if not args.no_refresh:
+        y, m = int(args.date[:4]), int(args.date[5:7])
+        f = CACHE / f"{y}-{m:02d}.parquet"
+        if f.exists():
+            f.unlink()
+        pull_month(y, m)
+    pitches = load_pitches()
+    pstate = pitcher_state(pitches)
+    opp_k, opp_k_hand = team_state(pitches)
+    pstate["name_key"] = pstate["player_name"].map(norm)
+    return pstate.reset_index().set_index("name_key"), opp_k, opp_k_hand
+
+
 # ── main ──────────────────────────────────────────────────────────────────
 def main():
     load_env()
@@ -154,20 +184,8 @@ def main():
                           "Discord alerts are wired up. You'll get daily K projections here.")
         sys.exit(0 if ok else 1)
 
-    # 1) refresh current month so pitcher state is current
-    if not args.no_refresh:
-        y, m = int(args.date[:4]), int(args.date[5:7])
-        f = CACHE / f"{y}-{m:02d}.parquet"
-        if f.exists():
-            f.unlink()  # force re-pull for freshness
-        pull_month(y, m)
-
-    # 2) state
-    pitches = load_pitches()
-    pstate = pitcher_state(pitches)
-    opp_k, opp_k_hand = team_state(pitches)
-    pstate["name_key"] = pstate["player_name"].map(norm)
-    name_to_idx = pstate.reset_index().set_index("name_key")
+    # 1+2) state (committed snapshot if available, else compute from cache)
+    name_to_idx, opp_k, opp_k_hand = load_state(args)
 
     # team id -> abbrev
     teams = statsapi.get("teams", {"sportId": 1})["teams"]
@@ -195,8 +213,8 @@ def main():
             ps = name_to_idx.loc[key]
             if isinstance(ps, pd.DataFrame):
                 ps = ps.iloc[0]
-            hand = pitches.loc[pitches["pitcher"] == ps["pitcher"], "p_throws"]
-            hand = hand.iloc[-1] if len(hand) else "R"
+            hand = ps.get("p_throws", "R")
+            hand = hand if hand in ("R", "L") else "R"
             days_rest = (pd.Timestamp(args.date) - ps["last_date"]).days
             feat = {
                 "k_pct_career": ps["k_pct_career"], "swstr_pct": ps["swstr_pct"],

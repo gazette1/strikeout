@@ -2,10 +2,10 @@ name: Daily K Picks to Discord
 
 on:
   schedule:
-    # 13:00 UTC ≈ 9:00 AM ET during the season (DST). Runs daily; the script
-    # self-skips on days with no MLB games, so it only posts on game days.
+    # 13:00 UTC ≈ 9:00 AM ET during the season. Runs daily; the script self-skips
+    # on days with no MLB games, so it only posts on game days.
     - cron: '0 13 * * *'
-  workflow_dispatch:        # allows manual "Run workflow" from the Actions tab
+  workflow_dispatch:        # manual "Run workflow" button in the Actions tab
 
 concurrency:
   group: daily-k-picks
@@ -14,9 +14,9 @@ concurrency:
 jobs:
   picks:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4      # includes the committed model + state snapshot
 
       - uses: actions/setup-python@v5
         with:
@@ -26,15 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install pybaseball MLB-StatsAPI lightgbm scikit-learn pandas pyarrow numpy requests
 
-      - name: Restore Statcast cache
-        uses: actions/cache@v4
-        with:
-          path: data/raw/statcast
-          key: statcast-${{ github.run_id }}
-          restore-keys: |
-            statcast-
-
-      - name: Restore picks/results history (for grading yesterday)
+      - name: Restore picks/results history (to grade yesterday)
         uses: actions/cache@v4
         with:
           path: data/predictions
@@ -42,19 +34,10 @@ jobs:
           restore-keys: |
             predictions-
 
-      - name: Bootstrap history on first run (if cache empty)
-        run: |
-          n=$(ls data/raw/statcast/20*-*.parquet 2>/dev/null | wc -l)
-          echo "Cached months: $n"
-          if [ "$n" -lt 16 ]; then
-            echo "Cold cache — backfilling 2024-2026 (one-time, a few minutes)..."
-            python tools/backfill_statcast.py 2024 2025 2026
-          fi
-
       - name: Grade yesterday's picks, then post today's
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PYTHONUTF8: '1'
         run: |
           python tools/results.py || true   # grade yesterday (skips if none saved)
-          python tools/daily_picks.py        # post today's picks
+          python tools/daily_picks.py        # post today's picks (uses committed snapshot)
