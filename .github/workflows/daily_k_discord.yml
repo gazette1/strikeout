@@ -32,10 +32,11 @@ jobs:
       - name: Grade yesterday's picks, then post today's
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           PYTHONUTF8: '1'
         run: |
           python tools/results.py || true   # grade yesterday (skips if none saved)
-          python tools/daily_picks.py        # post today's picks (uses committed snapshot)
+          python tools/daily_picks.py        # post today's picks (live odds if ODDS_API_KEY set)
 
       - name: Persist picks + results back to the repo
         if: always()

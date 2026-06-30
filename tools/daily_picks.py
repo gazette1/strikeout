@@ -128,7 +128,9 @@ def team_state(pitches):
 
 
 def norm(s):
-    s = str(s).strip()
+    import unicodedata
+    s = "".join(c for c in unicodedata.normalize("NFKD", str(s)) if not unicodedata.combining(c))
+    s = s.strip()
     if "," in s:
         last, first = [x.strip() for x in s.split(",", 1)]
         s = f"{first} {last}"
@@ -174,6 +176,7 @@ def main():
     ap.add_argument("--top", type=int, default=5, help="number of conviction plays to send")
     ap.add_argument("--webhook", help="Discord webhook URL (else DISCORD_WEBHOOK_URL)")
     ap.add_argument("--no-refresh", action="store_true", help="skip Statcast refresh")
+    ap.add_argument("--no-odds", action="store_true", help="ignore live odds, use conviction floors")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--test", action="store_true")
     args = ap.parse_args()
@@ -193,8 +196,14 @@ def main():
 
     # 3) schedule + probables
     sched = statsapi.schedule(start_date=args.date, end_date=args.date)
-    lines = {}
-    if args.lines and Path(args.lines).exists():
+
+    # lines: live odds (The Odds API) take priority; else a manual --lines JSON
+    lines, odds = {}, {}
+    if not args.no_odds and os.getenv("ODDS_API_KEY"):
+        from tools.odds import fetch_strikeout_lines
+        odds = fetch_strikeout_lines(args.date)
+        lines = {k: v["line"] for k, v in odds.items()}
+    elif args.lines and Path(args.lines).exists():
         lines = {norm(k): v for k, v in json.loads(Path(args.lines).read_text()).items()}
 
     models = load_models()
@@ -235,6 +244,9 @@ def main():
                 r["line"] = lines[key]
                 r["edge"] = round(r["proj"] - lines[key], 1)
                 r["lean"] = "OVER" if r["edge"] > 0 else "UNDER"
+                if key in odds:
+                    r["price"] = odds[key].get("over" if r["edge"] > 0 else "under")
+                    r["n_books"] = odds[key].get("n_books")
             rows.append(r)
 
     have = [r for r in rows if r.get("proj") is not None]
@@ -252,13 +264,21 @@ def main():
     if not have:
         body = f"No probable starters with history found for {args.date}."
     elif lines:
-        flagged = [r for r in have if abs(r.get("edge", 0)) >= args.min_edge]
-        flagged.sort(key=lambda r: abs(r.get("edge", 0)), reverse=True)
-        lines_out = [f"`{r['lean']:5s} {r['line']:>4}` **{r['pitcher']}** vs {r['opp']} "
-                     f"-> proj {r['proj']} [{r['lo']}-{r['hi']}] (edge {r['edge']:+})"
+        flagged = [r for r in have if "edge" in r and abs(r["edge"]) >= args.min_edge]
+        flagged.sort(key=lambda r: abs(r["edge"]), reverse=True)
+        flagged = flagged[:args.top]
+
+        def odds_str(r):
+            p = r.get("price")
+            return f" ({p:+d})" if isinstance(p, (int, float)) else ""
+        lines_out = [f"{'🟢' if r['edge'] > 0 else '🔴'} **{r['pitcher']}** ({r['hand']}) vs {r['opp']}\n"
+                     f" **{r['lean']} {r['line']:.1f}** K{odds_str(r)}  ·  proj {r['proj']} "
+                     f"[{r['lo']}–{r['hi']}]  ·  edge **{r['edge']:+.1f}**"
                      for r in flagged]
-        body = ("\n".join(lines_out) if lines_out
-                else f"No plays cleared |edge| >= {args.min_edge} today.")
+        n_lined = sum("edge" in r for r in have)
+        body = ("**Top edge plays** — model projection vs market line\n\n" + "\n".join(lines_out)
+                if lines_out else
+                f"No plays cleared |edge| ≥ {args.min_edge} today ({n_lined} pitchers had lines).")
     else:
         top = have[:args.top]
         lines_out = [
