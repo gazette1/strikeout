@@ -264,21 +264,33 @@ def main():
     if not have:
         body = f"No probable starters with history found for {args.date}."
     elif lines:
-        flagged = [r for r in have if "edge" in r and abs(r["edge"]) >= args.min_edge]
-        flagged.sort(key=lambda r: abs(r["edge"]), reverse=True)
-        flagged = flagged[:args.top]
+        # Judgment board: model projection alongside the market line, plus a safe
+        # buffer play (~1.5 K under the line, e.g. line 5.5 -> "4+ K"). No filtering.
+        lined = [r for r in have if "line" in r]
+        lined.sort(key=lambda r: r["proj"], reverse=True)
+        flagged = lined[:args.top]
+
+        def safe_play(line):
+            return max(1, int(round(line - 1.5)))     # 5.5 -> 4, 6.5 -> 5, 4.5 -> 3
 
         def odds_str(r):
             p = r.get("price")
             return f" ({p:+d})" if isinstance(p, (int, float)) else ""
-        lines_out = [f"{'🟢' if r['edge'] > 0 else '🔴'} **{r['pitcher']}** ({r['hand']}) vs {r['opp']}\n"
-                     f" **{r['lean']} {r['line']:.1f}** K{odds_str(r)}  ·  proj {r['proj']} "
-                     f"[{r['lo']}–{r['hi']}]  ·  edge **{r['edge']:+.1f}**"
-                     for r in flagged]
-        n_lined = sum("edge" in r for r in have)
-        body = ("**Top edge plays** — model projection vs market line\n\n" + "\n".join(lines_out)
-                if lines_out else
-                f"No plays cleared |edge| ≥ {args.min_edge} today ({n_lined} pitchers had lines).")
+        out = []
+        for r in flagged:
+            rp = safe_play(r["line"])
+            r["rec"] = rp
+            r["play_line"] = rp - 0.5                  # graded as OVER (rp-0.5) == "rp+ K"
+            lean = "🟢" if r["proj"] >= r["line"] else "🟡"
+            out.append(f"{lean} **{r['pitcher']}** ({r['hand']}) vs {r['opp']}\n"
+                       f"   proj **{r['proj']}** · line **{r['line']:.1f}**{odds_str(r)} · "
+                       f"safe play **{rp}+ K**  _(range {r['lo']}–{r['hi']})_")
+        body = ("**Today's K plays — model projection vs market line**\n"
+                "_🟢 proj ≥ line · 🟡 proj < line · safe play ≈ 1.5 under the line — your call_\n\n"
+                + "\n".join(out))
+        noline = [r["pitcher"] for r in have if "line" not in r][:6]
+        if noline:
+            body += f"\n\n_No market line posted: {', '.join(noline)}_"
     else:
         top = have[:args.top]
         lines_out = [
@@ -302,9 +314,11 @@ def main():
     picks_dir = ROOT / "data" / "predictions"
     picks_dir.mkdir(parents=True, exist_ok=True)
     save = [{"pitcher": r["pitcher"], "pitcher_id": r.get("pitcher_id"),
-             "opp": r["opp"], "line": r.get("line", r.get("conf_line")),
-             "proj": r["proj"], "lo": r["lo"], "hi": r["hi"],
-             "lean": r.get("lean", "OVER")} for r in posted]
+             "opp": r["opp"],
+             # graded line = the safe play (play_line) in odds mode, else conviction floor
+             "line": r.get("play_line", r.get("conf_line")),
+             "market_line": r.get("line"), "proj": r["proj"],
+             "lo": r["lo"], "hi": r["hi"], "lean": "OVER"} for r in posted]
     (picks_dir / f"picks_{args.date}.json").write_text(
         json.dumps({"date": args.date, "picks": save}, indent=2))
 

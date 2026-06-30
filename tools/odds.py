@@ -46,8 +46,8 @@ def fetch_strikeout_lines(date_str, key=None) -> dict:
         return {}
     print(f"[odds] {len(events)} games on {date_str}")
 
-    # collect points + over prices per pitcher across books
-    agg = {}   # name_key -> {"name":, "points":[], "overs":[], "unders":[], "books":set()}
+    # collect (point, over_price) and (point, under_price) pairs per pitcher across books
+    agg = {}   # name_key -> {"name":, "overs":[(pt,price)], "unders":[(pt,price)], "books":set()}
     remaining = None
     for e in events:
         try:
@@ -64,28 +64,30 @@ def fetch_strikeout_lines(date_str, key=None) -> dict:
                         continue
                     for o in m["outcomes"]:
                         nm = o.get("description")
-                        if not nm:
+                        if not nm or o.get("point") is None:
                             continue
-                        k = norm(nm)
-                        d = agg.setdefault(k, {"name": nm, "points": [], "overs": [],
-                                               "unders": [], "books": set()})
+                        d = agg.setdefault(norm(nm), {"name": nm, "overs": [], "unders": [],
+                                                      "books": set()})
                         d["books"].add(bk["key"])
                         if o["name"] == "Over":
-                            d["points"].append(o["point"]); d["overs"].append(o["price"])
+                            d["overs"].append((o["point"], o["price"]))
                         elif o["name"] == "Under":
-                            d["unders"].append(o["price"])
+                            d["unders"].append((o["point"], o["price"]))
         except Exception:
             continue
 
     lines = {}
     for k, d in agg.items():
-        if not d["points"]:
+        if not d["overs"]:
             continue
-        lines[k] = {"name": d["name"],
-                    "line": statistics.median(d["points"]),
-                    "over": max(d["overs"]) if d["overs"] else None,
-                    "under": max(d["unders"]) if d["unders"] else None,
-                    "n_books": len(d["books"])}
+        # main line = the quote whose Over price is closest to even (-110ish);
+        # alt lines carry extreme prices, so this ignores them.
+        point, over_price = min(d["overs"], key=lambda p: abs(p[1]))
+        if not (2.0 <= point <= 9.5):       # implausible main K line -> skip as bad data
+            continue
+        under_price = next((pr for pt, pr in d["unders"] if pt == point), None)
+        lines[k] = {"name": d["name"], "line": point, "over": over_price,
+                    "under": under_price, "n_books": len(d["books"])}
     print(f"[odds] {len(lines)} pitchers with K lines | credits remaining: {remaining}")
     return lines
 
