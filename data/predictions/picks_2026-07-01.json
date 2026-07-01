@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-01",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "PIT",
+      "line": 3.0,
+      "market_line": null,
+      "proj": 7.5,
+      "lo": 3.0,
+      "hi": 12.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "PHI",
+      "line": 3.0,
+      "market_line": null,
+      "proj": 6.0,
+      "lo": 3.0,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Meyer",
+      "pitcher_id": 676974,
+      "opp": "COL",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.5,
+      "lo": 2.3,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Freddy Peralta",
+      "pitcher_id": 642547,
+      "opp": "TOR",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.3,
+      "lo": 2.1,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "pitcher_id": 669022,
+      "opp": "CLE",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 4.5,
+      "lo": 2.1,
+      "hi": 9.5,
+      "lean": "OVER"
+    }
+  ]
+}
