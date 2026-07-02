@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-02",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "CIN",
+      "line": 3.0,
+      "market_line": null,
+      "proj": 8.0,
+      "lo": 3.1,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nathan Eovaldi",
+      "pitcher_id": 543135,
+      "opp": "DET",
+      "line": 2.5,
+      "market_line": null,
+      "proj": 4.6,
+      "lo": 2.7,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "MIL",
+      "line": 2.5,
+      "market_line": null,
+      "proj": 6.5,
+      "lo": 2.6,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "TEX",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.9,
+      "lo": 2.4,
+      "hi": 11.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "LAA",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 6.3,
+      "lo": 2.3,
+      "hi": 11.1,
+      "lean": "OVER"
+    }
+  ]
+}
