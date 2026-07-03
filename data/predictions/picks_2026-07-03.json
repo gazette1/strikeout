@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-03",
+  "picks": [
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": null,
+      "proj": 6.9,
+      "lo": 3.7,
+      "hi": 10.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "BOS",
+      "line": 2.5,
+      "market_line": null,
+      "proj": 6.4,
+      "lo": 2.5,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "CWS",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.7,
+      "lo": 2.3,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Foster Griffin",
+      "pitcher_id": 656492,
+      "opp": "PIT",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.8,
+      "lo": 2.2,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shohei Ohtani",
+      "pitcher_id": 660271,
+      "opp": "SD",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 7.5,
+      "lo": 2.1,
+      "hi": 9.2,
+      "lean": "OVER"
+    }
+  ]
+}
