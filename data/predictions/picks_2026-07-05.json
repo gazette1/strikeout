@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-05",
+  "picks": [
+    {
+      "pitcher": "Joe Ryan",
+      "pitcher_id": 657746,
+      "opp": "NYY",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 6.0,
+      "lo": 2.4,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "MIA",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.3,
+      "lo": 2.1,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Emmet Sheehan",
+      "pitcher_id": 686218,
+      "opp": "SD",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 6.2,
+      "lo": 2.0,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "ATL",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.8,
+      "lo": 2.0,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Trey Yesavage",
+      "pitcher_id": 702056,
+      "opp": "SEA",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.6,
+      "lo": 2.0,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
