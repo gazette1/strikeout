@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-06",
+  "picks": [
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "TB",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.9,
+      "lo": 2.4,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "NYY",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.7,
+      "lo": 2.2,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Freddy Peralta",
+      "pitcher_id": 642547,
+      "opp": "ATL",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.3,
+      "lo": 2.2,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "KC",
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.3,
+      "lo": 2.1,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kevin Gausman",
+      "pitcher_id": 592332,
+      "opp": "SF",
+      "line": 1.5,
+      "market_line": null,
+      "proj": 4.4,
+      "lo": 1.8,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
