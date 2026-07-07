@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-07",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "STL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.6,
+      "lo": 2.7,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "LAA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.0,
+      "lo": 3.3,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "ATH",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.9,
+      "lo": 3.4,
+      "hi": 12.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.9,
+      "lo": 3.4,
+      "hi": 10.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Justin Wrobleski",
+      "pitcher_id": 680736,
+      "opp": "COL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.7,
+      "lo": 1.6,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
