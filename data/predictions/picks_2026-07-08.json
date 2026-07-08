@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-08",
+  "picks": [
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "PHI",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.9,
+      "lo": 3.0,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "SF",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.6,
+      "lo": 3.1,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "ATL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.9,
+      "lo": 2.3,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "pitcher_id": 669022,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.5,
+      "hi": 11.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "NYY",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.5,
+      "lo": 2.1,
+      "hi": 8.9,
+      "lean": "OVER"
+    }
+  ]
+}
