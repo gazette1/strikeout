@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-09",
+  "picks": [
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "TEX",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.8,
+      "lo": 1.6,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jack Perkins",
+      "pitcher_id": 678022,
+      "opp": "DET",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.7,
+      "lo": 1.9,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "ATH",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.6,
+      "lo": 2.4,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "opp": "NYY",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.4,
+      "lo": 1.5,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "CIN",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.9,
+      "lo": 3.3,
+      "hi": 9.9,
+      "lean": "OVER"
+    }
+  ]
+}
