@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-10",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "STL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.9,
+      "lo": 2.9,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shohei Ohtani",
+      "pitcher_id": 660271,
+      "opp": "AZ",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.0,
+      "lo": 2.1,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Brandon Sproat",
+      "pitcher_id": 687075,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.6,
+      "lo": 1.9,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jack Flaherty",
+      "pitcher_id": 656427,
+      "opp": "PHI",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.6,
+      "lo": 1.7,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Greene",
+      "pitcher_id": 668881,
+      "opp": "CHC",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.4,
+      "hi": 10.2,
+      "lean": "OVER"
+    }
+  ]
+}
