@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-11",
+  "picks": [
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "TB",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.8,
+      "lo": 3.0,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "KC",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.8,
+      "lo": 2.2,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Brandon Sproat",
+      "pitcher_id": 687075,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.6,
+      "lo": 1.9,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Yoshinobu Yamamoto",
+      "pitcher_id": 808967,
+      "opp": "AZ",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.5,
+      "lo": 2.4,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.4,
+      "lo": 2.5,
+      "hi": 8.9,
+      "lean": "OVER"
+    }
+  ]
+}
