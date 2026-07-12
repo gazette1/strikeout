@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-12",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "DET",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.6,
+      "lo": 2.9,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "PHI",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.9,
+      "lo": 3.1,
+      "hi": 12.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "MIL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 3.0,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Emmet Sheehan",
+      "pitcher_id": 686218,
+      "opp": "AZ",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.4,
+      "lo": 2.2,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Taj Bradley",
+      "pitcher_id": 671737,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 2.0,
+      "hi": 10.9,
+      "lean": "OVER"
+    }
+  ]
+}
