@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-14",
+  "picks": [
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": null,
+      "line": 2.5,
+      "market_line": null,
+      "proj": 5.4,
+      "lo": 2.8,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": null,
+      "line": 2.0,
+      "market_line": null,
+      "proj": 5.4,
+      "lo": 2.3,
+      "hi": 8.8,
+      "lean": "OVER"
+    }
+  ]
+}
