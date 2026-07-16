@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-16",
+  "picks": [
+    {
+      "pitcher": "Aaron Nola",
+      "pitcher_id": 605400,
+      "opp": "NYM",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.3,
+      "lo": 2.0,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Christian Scott",
+      "pitcher_id": 681035,
+      "opp": "PHI",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.0,
+      "lo": 1.2,
+      "hi": 9.4,
+      "lean": "OVER"
+    }
+  ]
+}
