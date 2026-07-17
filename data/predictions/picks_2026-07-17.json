@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-17",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "TEX",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.2,
+      "lo": 3.2,
+      "hi": 11.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "SF",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 2.0,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "pitcher_id": 607625,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.0,
+      "lo": 1.5,
+      "hi": 7.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "PIT",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.8,
+      "lo": 2.4,
+      "hi": 10.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "WSH",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.8,
+      "lo": 2.1,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
