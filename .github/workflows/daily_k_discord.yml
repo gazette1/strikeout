@@ -19,15 +19,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4      # includes committed model, snapshot, and results log
+      - uses: actions/checkout@v5      # includes committed model, snapshot, and results log
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: requirements-ci.txt
 
       - name: Install dependencies
-        run: pip install pybaseball MLB-StatsAPI lightgbm scikit-learn pandas pyarrow numpy requests
+        run: pip install -r requirements-ci.txt
 
       - name: Grade yesterday's picks, then post today's
         env:

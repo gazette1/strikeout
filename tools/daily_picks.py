@@ -17,7 +17,7 @@ Run:   python tools/daily_picks.py                 # today
        python tools/daily_picks.py --dry-run        # print, don't send
 """
 from __future__ import annotations
-import argparse, json, os, sys, warnings
+import argparse, json, os, sys, time, warnings
 from datetime import date as date_cls
 from pathlib import Path
 warnings.filterwarnings("ignore")
@@ -39,6 +39,23 @@ STATE = ROOT / "data" / "state"
 FEATURES = ["k_pct_career", "swstr_pct", "csw_pct", "putaway_rate", "bf_per_start",
             "k_last3", "fb_velo_asof", "days_rest", "opp_k_pct", "opp_k_pct_vs_hand",
             "is_home", "n_prior_starts"]
+
+
+# ── transient-failure retry ───────────────────────────────────────────────
+def _retry(fn, *, tries=4, base=2.0, what="call"):
+    """Call fn() with exponential backoff on transient (usually network) errors.
+    Re-raises the last error if every attempt fails."""
+    last = None
+    for i in range(tries):
+        try:
+            return fn()
+        except Exception as e:
+            last = e
+            if i < tries - 1:
+                wait = base * (2 ** i)
+                print(f"[retry] {what} failed ({e}); attempt {i + 1}/{tries}, waiting {wait:.0f}s")
+                time.sleep(wait)
+    raise last
 
 
 # ── env / .env ────────────────────────────────────────────────────────────
@@ -190,12 +207,18 @@ def main():
     # 1+2) state (committed snapshot if available, else compute from cache)
     name_to_idx, opp_k, opp_k_hand = load_state(args)
 
-    # team id -> abbrev
-    teams = statsapi.get("teams", {"sportId": 1})["teams"]
+    # team id -> abbrev, and schedule + probables. These are live MLB Stats API calls;
+    # retry transient blips, and if the API is still unreachable, skip the day cleanly
+    # (exit 0) rather than failing the whole job.
+    try:
+        teams = _retry(lambda: statsapi.get("teams", {"sportId": 1})["teams"],
+                       what="statsapi teams")
+        sched = _retry(lambda: statsapi.schedule(start_date=args.date, end_date=args.date),
+                       what="statsapi schedule")
+    except Exception as e:
+        print(f"MLB Stats API unreachable after retries ({e}); skipping today's run.")
+        return
     id2abbr = {t["id"]: t["abbreviation"] for t in teams}
-
-    # 3) schedule + probables
-    sched = statsapi.schedule(start_date=args.date, end_date=args.date)
 
     # lines: live odds (The Odds API) take priority; else a manual --lines JSON
     lines, odds = {}, {}
@@ -235,7 +258,8 @@ def main():
                 "opp_k_pct_vs_hand": opp_k_hand.get((opp, hand), opp_k.get(opp, np.nan)),
                 "is_home": is_home, "n_prior_starts": ps["n_prior_starts"],
             }
-            X = pd.DataFrame([feat])[FEATURES]
+            X = (pd.DataFrame([feat])[FEATURES]
+                 .apply(pd.to_numeric, errors="coerce").astype("float64"))
             lo, md, hi = predict(models, X)
             r = {"pitcher": pname, "pitcher_id": int(ps["pitcher"]), "opp": opp, "hand": hand,
                  "proj": round(float(md[0]), 1), "lo": round(float(lo[0]), 1),

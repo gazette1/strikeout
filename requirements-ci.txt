@@ -1,0 +1,12 @@
+# Pinned, known-good set for the daily Discord Action (matches the working local env).
+# The job used to `pip install` these unpinned, so a fresh runner pulled the latest of
+# each every run — a new numpy/pandas/lightgbm release could break model loading or a
+# pandas op with no code change (a likely cause of the intermittent exit-1). Bump deliberately.
+pybaseball==2.2.7
+MLB-StatsAPI==1.9.0
+lightgbm==4.6.0
+scikit-learn==1.8.0
+pandas==2.3.3
+pyarrow==23.0.1
+numpy==2.3.5
+requests==2.32.5
