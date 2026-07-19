@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-19",
+  "picks": [
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "SF",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.2,
+      "lo": 2.7,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "LAD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.3,
+      "lo": 2.3,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 2.1,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "CLE",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.1,
+      "lo": 2.8,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Joey Cantillo",
+      "pitcher_id": 676282,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 2.1,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
