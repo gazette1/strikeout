@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-20",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "NYM",
+      "line": 7.5,
+      "market_line": 9.5,
+      "proj": 6.3,
+      "lo": 2.6,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.1,
+      "lo": 2.7,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "TB",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.0,
+      "lo": 3.0,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "LAD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.8,
+      "lo": 2.3,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ryan Weathers",
+      "pitcher_id": 677960,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.4,
+      "hi": 11.1,
+      "lean": "OVER"
+    }
+  ]
+}
