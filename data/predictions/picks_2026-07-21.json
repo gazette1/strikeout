@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-21",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "LAD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.4,
+      "lo": 2.4,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "SEA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.7,
+      "lo": 2.8,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Brandon Sproat",
+      "pitcher_id": 687075,
+      "opp": "NYM",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.7,
+      "lo": 1.7,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Will Warren",
+      "pitcher_id": 701542,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 1.7,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
