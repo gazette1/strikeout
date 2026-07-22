@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-22",
+  "picks": [
+    {
+      "pitcher": "Max Fried",
+      "pitcher_id": 608331,
+      "opp": "PIT",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 5.3,
+      "lo": 2.5,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 1.9,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gerrit Cole",
+      "pitcher_id": 543037,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 1.7,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "STL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 2.1,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "pitcher_id": 607625,
+      "opp": "SF",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.4,
+      "hi": 7.5,
+      "lean": "OVER"
+    }
+  ]
+}
