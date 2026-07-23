@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-23",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "SD",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.7,
+      "lo": 2.7,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "MIN",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 2.0,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane Bieber",
+      "pitcher_id": 669456,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.1,
+      "lo": 1.4,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Taj Bradley",
+      "pitcher_id": 671737,
+      "opp": "CLE",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 3.9,
+      "lo": 1.5,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ian Seymour",
+      "pitcher_id": 693855,
+      "opp": "TOR",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 3.9,
+      "lo": 1.3,
+      "hi": 8.4,
+      "lean": "OVER"
+    }
+  ]
+}
