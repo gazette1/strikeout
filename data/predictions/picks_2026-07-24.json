@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-24",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "KC",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.2,
+      "lo": 2.4,
+      "hi": 11.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.9,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "pitcher_id": 669022,
+      "opp": "SEA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 2.4,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "CLE",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.8,
+      "hi": 8.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "NYY",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.8,
+      "lo": 2.8,
+      "hi": 9.3,
+      "lean": "OVER"
+    }
+  ]
+}
