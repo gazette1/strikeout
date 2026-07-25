@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-25",
+  "picks": [
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "BOS",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.4,
+      "lo": 2.9,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "CHC",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.3,
+      "lo": 2.8,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "LAD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 1.8,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Greene",
+      "pitcher_id": 668881,
+      "opp": "STL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Eury P\u00e9rez",
+      "pitcher_id": 691587,
+      "opp": "SD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.0,
+      "lo": 1.6,
+      "hi": 9.3,
+      "lean": "OVER"
+    }
+  ]
+}
