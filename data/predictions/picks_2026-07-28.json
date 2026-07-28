@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-28",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "NYM",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.0,
+      "lo": 2.8,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "CLE",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.1,
+      "lo": 2.7,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "HOU",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 2.0,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bubba Chandler",
+      "pitcher_id": 696149,
+      "opp": "AZ",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 1.6,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
