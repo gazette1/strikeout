@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-29",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "NYM",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.0,
+      "lo": 2.8,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "BAL",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.0,
+      "lo": 3.2,
+      "hi": 11.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "AZ",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "HOU",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.0,
+      "lo": 1.8,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "CWS",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.9,
+      "lo": 2.4,
+      "hi": 9.0,
+      "lean": "OVER"
+    }
+  ]
+}
