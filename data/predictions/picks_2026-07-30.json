@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-30",
+  "picks": [
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "TEX",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 1.9,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "MIA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 1.9,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Roki Sasaki",
+      "pitcher_id": 808963,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.7,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ryan Weathers",
+      "pitcher_id": 677960,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 2.1,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grant Holmes",
+      "pitcher_id": 656550,
+      "opp": "WSH",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.6,
+      "hi": 8.0,
+      "lean": "OVER"
+    }
+  ]
+}
