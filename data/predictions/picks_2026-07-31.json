@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-31",
+  "picks": [
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "STL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.0,
+      "lo": 2.8,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Greene",
+      "pitcher_id": 668881,
+      "opp": "PIT",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.8,
+      "lo": 2.8,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "CIN",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 5.4,
+      "lo": 3.1,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "TEX",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 1.9,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "MIN",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 2.0,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
