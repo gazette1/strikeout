@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-02",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "BAL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 2.4,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.2,
+      "lo": 2.9,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "LAA",
+      "line": 7.5,
+      "market_line": 9.5,
+      "proj": 5.9,
+      "lo": 2.8,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Emmet Sheehan",
+      "pitcher_id": 686218,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 2.5,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "PHI",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
