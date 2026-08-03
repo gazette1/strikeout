@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-03",
+  "picks": [
+    {
+      "pitcher": "Brandon Sproat",
+      "pitcher_id": 687075,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 6.0,
+      "lo": 2.1,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "STL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.2,
+      "lo": 2.4,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "opp": "TEX",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 2.1,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Aaron Nola",
+      "pitcher_id": 605400,
+      "opp": "WSH",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.5,
+      "lo": 2.0,
+      "hi": 8.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Matthew Boyd",
+      "pitcher_id": 571510,
+      "opp": "LAD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 1.7,
+      "hi": 8.3,
+      "lean": "OVER"
+    }
+  ]
+}
