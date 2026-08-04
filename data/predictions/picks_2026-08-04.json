@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-04",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "CHC",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.4,
+      "lo": 2.2,
+      "hi": 11.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ryan Weathers",
+      "pitcher_id": 677960,
+      "opp": "STL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "WSH",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.7,
+      "lo": 2.8,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Joe Ryan",
+      "pitcher_id": 657746,
+      "opp": "KC",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 2.1,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Henderson",
+      "pitcher_id": 701656,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.5,
+      "lo": 1.7,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
