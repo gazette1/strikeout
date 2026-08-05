@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-05",
+  "picks": [
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "SEA",
+      "line": 0.5,
+      "market_line": 2.5,
+      "proj": 5.4,
+      "lo": 2.3,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "MIL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.1,
+      "lo": 2.6,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Harrison",
+      "pitcher_id": 690986,
+      "opp": "PIT",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Will Warren",
+      "pitcher_id": 701542,
+      "opp": "STL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.0,
+      "lo": 1.6,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "TOR",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.8,
+      "hi": 9.3,
+      "lean": "OVER"
+    }
+  ]
+}
