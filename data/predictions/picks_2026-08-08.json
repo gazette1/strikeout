@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-08",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "NYY",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 7.1,
+      "lo": 2.8,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "BAL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.8,
+      "lo": 2.5,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "WSH",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.6,
+      "lo": 2.5,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gerrit Cole",
+      "pitcher_id": 543037,
+      "opp": "ATL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 1.6,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "TEX",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.7,
+      "hi": 8.8,
+      "lean": "OVER"
+    }
+  ]
+}
