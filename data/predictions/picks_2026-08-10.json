@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-10",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "KC",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.2,
+      "lo": 2.4,
+      "hi": 11.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "TEX",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Michael Soroka",
+      "pitcher_id": 647336,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.4,
+      "hi": 8.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Dobbins",
+      "pitcher_id": 690928,
+      "opp": "PHI",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.4,
+      "lo": 1.6,
+      "hi": 7.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob Lopez",
+      "pitcher_id": 682052,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.3,
+      "lo": 1.4,
+      "hi": 7.7,
+      "lean": "OVER"
+    }
+  ]
+}
