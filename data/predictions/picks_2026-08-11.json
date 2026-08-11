@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-11",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "KC",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.0,
+      "lo": 2.3,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "BOS",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 5.8,
+      "lo": 2.9,
+      "hi": 11.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "STL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.3,
+      "lo": 1.8,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ryan Weathers",
+      "pitcher_id": 677960,
+      "opp": "SEA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.2,
+      "hi": 11.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "MIA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.6,
+      "hi": 9.7,
+      "lean": "OVER"
+    }
+  ]
+}
