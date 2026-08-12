@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-12",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "STL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.3,
+      "lo": 2.3,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jack Perkins",
+      "pitcher_id": 678022,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "CLE",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 2.4,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "NYY",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 2.2,
+      "hi": 8.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Luis Castillo",
+      "pitcher_id": 622491,
+      "opp": "CIN",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 1.9,
+      "hi": 10.7,
+      "lean": "OVER"
+    }
+  ]
+}
