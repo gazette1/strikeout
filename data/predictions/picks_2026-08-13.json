@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-13",
+  "picks": [
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "NYY",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.7,
+      "lo": 2.5,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Scherzer",
+      "pitcher_id": 453286,
+      "opp": "BOS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.1,
+      "lo": 1.4,
+      "hi": 7.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.6,
+      "lo": 3.1,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Fried",
+      "pitcher_id": 608331,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 2.3,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tyler Phillips",
+      "pitcher_id": 663969,
+      "opp": "PIT",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.5,
+      "lo": 1.6,
+      "hi": 6.9,
+      "lean": "OVER"
+    }
+  ]
+}
