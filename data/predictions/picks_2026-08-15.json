@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-15",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "LAD",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.4,
+      "lo": 2.2,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.3,
+      "lo": 1.8,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "opp": "COL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 2.9,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "BOS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 2.3,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "TOR",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 2.2,
+      "hi": 8.9,
+      "lean": "OVER"
+    }
+  ]
+}
