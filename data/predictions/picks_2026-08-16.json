@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-16",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "MIL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.2,
+      "lo": 2.5,
+      "hi": 11.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "NYY",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.0,
+      "lo": 3.0,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "CWS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.5,
+      "lo": 2.2,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Blade Tidwell",
+      "pitcher_id": 694918,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.4,
+      "hi": 8.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 2.3,
+      "hi": 10.3,
+      "lean": "OVER"
+    }
+  ]
+}
