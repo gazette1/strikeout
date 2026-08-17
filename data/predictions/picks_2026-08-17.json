@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-17",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "COL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.1,
+      "lo": 3.2,
+      "hi": 11.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "MIA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.4,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "BAL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.5,
+      "lo": 2.2,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "SD",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.4,
+      "lo": 1.7,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 2.9,
+      "hi": 10.6,
+      "lean": "OVER"
+    }
+  ]
+}
