@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-18",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "MIA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 2.4,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Harrison",
+      "pitcher_id": 690986,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 2.0,
+      "hi": 8.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Ranger Suarez",
+      "pitcher_id": 624133,
+      "opp": "AZ",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.7,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane Baz",
+      "pitcher_id": 669358,
+      "opp": "NYY",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 1.8,
+      "hi": 8.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristian Javier",
+      "pitcher_id": 664299,
+      "opp": "LAA",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 1.5,
+      "hi": 7.4,
+      "lean": "OVER"
+    }
+  ]
+}
