@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-20",
+  "picks": [
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "WSH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.9,
+      "lo": 2.2,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "NYY",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.4,
+      "lo": 2.1,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "pitcher_id": 663567,
+      "opp": "LAA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 1.9,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "HOU",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 1.7,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Robert Gasser",
+      "pitcher_id": 688107,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.5,
+      "lo": 1.6,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
