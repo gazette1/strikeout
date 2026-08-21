@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-21",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "MIL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.8,
+      "lo": 2.7,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "ATL",
+      "line": 7.5,
+      "market_line": 9.5,
+      "proj": 6.4,
+      "lo": 2.6,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "TOR",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.5,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "pitcher_id": 669022,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 2.5,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "STL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.7,
+      "lo": 2.7,
+      "hi": 9.2,
+      "lean": "OVER"
+    }
+  ]
+}
