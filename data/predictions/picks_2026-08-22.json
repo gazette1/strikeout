@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-22",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "PIT",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.1,
+      "lo": 3.5,
+      "hi": 11.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "NYY",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 5.7,
+      "lo": 2.7,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "BAL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 2.1,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Eury P\u00e9rez",
+      "pitcher_id": 691587,
+      "opp": "WSH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 1.6,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Michael Soroka",
+      "pitcher_id": 647336,
+      "opp": "CIN",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 1.5,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
