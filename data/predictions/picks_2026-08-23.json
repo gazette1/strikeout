@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-23",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "PIT",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.9,
+      "lo": 3.1,
+      "hi": 11.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "STL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.6,
+      "lo": 2.0,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "CHC",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.6,
+      "lo": 1.9,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane Baz",
+      "pitcher_id": 669358,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.8,
+      "hi": 8.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristian Javier",
+      "pitcher_id": 664299,
+      "opp": "ATH",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.4,
+      "hi": 6.7,
+      "lean": "OVER"
+    }
+  ]
+}
