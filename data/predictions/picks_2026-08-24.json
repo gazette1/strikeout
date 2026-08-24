@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-24",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "SEA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.2,
+      "lo": 2.4,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "PHI",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.7,
+      "lo": 2.5,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "SF",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.5,
+      "hi": 10.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cade Cavalli",
+      "pitcher_id": 676917,
+      "opp": "COL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.1,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 2.3,
+      "hi": 9.3,
+      "lean": "OVER"
+    }
+  ]
+}
