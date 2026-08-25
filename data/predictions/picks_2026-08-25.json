@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-25",
+  "picks": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.9,
+      "lo": 3.0,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "SD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.8,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Will Warren",
+      "pitcher_id": 701542,
+      "opp": "HOU",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.3,
+      "lo": 1.7,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.7,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "pitcher_id": 607625,
+      "opp": "TOR",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.9,
+      "lo": 1.4,
+      "hi": 6.8,
+      "lean": "OVER"
+    }
+  ]
+}
