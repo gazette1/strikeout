@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-26",
+  "picks": [
+    {
+      "pitcher": "Landen Roupp",
+      "pitcher_id": 694738,
+      "opp": "CIN",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 2.0,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "AJ Smith-Shawver",
+      "pitcher_id": 700363,
+      "opp": "LAD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.0,
+      "lo": 1.4,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "CLE",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "STL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.8,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bubba Chandler",
+      "pitcher_id": 696149,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.5,
+      "hi": 8.0,
+      "lean": "OVER"
+    }
+  ]
+}
