@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-27",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "LAD",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.7,
+      "lo": 2.7,
+      "hi": 10.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "NYM",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.2,
+      "lo": 2.3,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gerrit Cole",
+      "pitcher_id": 543037,
+      "opp": "HOU",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.7,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Landen Roupp",
+      "pitcher_id": 694738,
+      "opp": "AZ",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.9,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hayden Wesneski",
+      "pitcher_id": 669713,
+      "opp": "NYY",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.3,
+      "lo": 1.5,
+      "hi": 7.8,
+      "lean": "OVER"
+    }
+  ]
+}
