@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-28",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "DET",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.1,
+      "lo": 2.9,
+      "hi": 11.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "SEA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.0,
+      "lo": 3.3,
+      "hi": 10.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "BOS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.4,
+      "lo": 2.5,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "LAD",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 2.0,
+      "hi": 9.0,
+      "lean": "OVER"
+    }
+  ]
+}
