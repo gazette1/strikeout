@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-31",
+  "picks": [
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "ATH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.8,
+      "lo": 2.6,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Brady Singer",
+      "pitcher_id": 663903,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.4,
+      "hi": 7.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Payton Tolle",
+      "pitcher_id": 801139,
+      "opp": "SEA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.6,
+      "lo": 1.4,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Elmer Rodr\u00edguez",
+      "pitcher_id": 695684,
+      "opp": "LAA",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 0.9,
+      "hi": 7.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "TEX",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.3,
+      "lo": 1.9,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
