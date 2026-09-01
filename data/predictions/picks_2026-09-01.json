@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-01",
+  "picks": [
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "SF",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.4,
+      "lo": 2.9,
+      "hi": 10.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gerrit Cole",
+      "pitcher_id": 543037,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.0,
+      "lo": 2.2,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 2.3,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "TOR",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "NYY",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 1.8,
+      "hi": 8.9,
+      "lean": "OVER"
+    }
+  ]
+}
