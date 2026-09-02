@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-02",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "CHC",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.3,
+      "lo": 2.2,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "CLE",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.3,
+      "lo": 2.4,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "MIN",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.2,
+      "lo": 2.0,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hayden Wesneski",
+      "pitcher_id": 669713,
+      "opp": "CWS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.7,
+      "hi": 7.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "NYM",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.6,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
