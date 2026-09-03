@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-03",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "STL",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.3,
+      "lo": 2.5,
+      "hi": 11.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 2.1,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane McClanahan",
+      "pitcher_id": 663556,
+      "opp": "TEX",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.7,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jack Perkins",
+      "pitcher_id": 678022,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 1.9,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jos\u00e9 Soriano",
+      "pitcher_id": 667755,
+      "opp": "CLE",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.4,
+      "lo": 1.8,
+      "hi": 9.0,
+      "lean": "OVER"
+    }
+  ]
+}
