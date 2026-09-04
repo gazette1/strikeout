@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-04",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "PHI",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 7.0,
+      "lo": 2.6,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "WSH",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 2.4,
+      "hi": 10.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "ATH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.8,
+      "lo": 2.8,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.4,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.9,
+      "hi": 9.7,
+      "lean": "OVER"
+    }
+  ]
+}
