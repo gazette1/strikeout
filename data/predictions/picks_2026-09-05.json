@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-05",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.5,
+      "lo": 2.5,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "WSH",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.9,
+      "lo": 2.7,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "TB",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.7,
+      "lo": 2.4,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "pitcher_id": 607625,
+      "opp": "TOR",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 5.1,
+      "lo": 1.6,
+      "hi": 6.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chris Bassitt",
+      "pitcher_id": 605135,
+      "opp": "BOS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 1.3,
+      "hi": 7.8,
+      "lean": "OVER"
+    }
+  ]
+}
