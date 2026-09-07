@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-07",
+  "picks": [
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "LAD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.8,
+      "lo": 2.3,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "ATH",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.3,
+      "lo": 2.9,
+      "hi": 10.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "opp": "STL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 2.4,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "ATL",
+      "line": 7.5,
+      "market_line": 9.5,
+      "proj": 4.6,
+      "lo": 2.7,
+      "hi": 9.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Brayan Bello",
+      "pitcher_id": 678394,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.5,
+      "lo": 1.5,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
