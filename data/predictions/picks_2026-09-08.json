@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-08",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "CHC",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.3,
+      "lo": 2.5,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "CIN",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.2,
+      "lo": 3.1,
+      "hi": 12.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "COL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.4,
+      "lo": 2.7,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "AJ Smith-Shawver",
+      "pitcher_id": 700363,
+      "opp": "TB",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 5.2,
+      "lo": 1.6,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "MIN",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 8.8,
+      "lean": "OVER"
+    }
+  ]
+}
