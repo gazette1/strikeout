@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-09",
+  "picks": [
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "HOU",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.7,
+      "lo": 2.2,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "ATL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 1.9,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Will Warren",
+      "pitcher_id": 701542,
+      "opp": "COL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 1.8,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Henderson",
+      "pitcher_id": 701656,
+      "opp": "CHC",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 1.7,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Yoshinobu Yamamoto",
+      "pitcher_id": 808967,
+      "opp": "CIN",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.4,
+      "lo": 2.7,
+      "hi": 9.8,
+      "lean": "OVER"
+    }
+  ]
+}
