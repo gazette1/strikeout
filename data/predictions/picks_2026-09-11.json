@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-11",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "PHI",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.0,
+      "lo": 2.9,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cade Cavalli",
+      "pitcher_id": 676917,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.3,
+      "lo": 2.2,
+      "hi": 10.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.1,
+      "lo": 2.8,
+      "hi": 10.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Scherzer",
+      "pitcher_id": 453286,
+      "opp": "BAL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.1,
+      "lo": 1.4,
+      "hi": 7.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "NYY",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 1.6,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
