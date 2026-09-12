@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-12",
+  "picks": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "MIA",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.8,
+      "lo": 2.5,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gage Jump",
+      "pitcher_id": 695611,
+      "opp": "SEA",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.2,
+      "lo": 2.4,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kyle Bradish",
+      "pitcher_id": 680694,
+      "opp": "TOR",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 5.0,
+      "lo": 2.0,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "CHC",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 2.6,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gerrit Cole",
+      "pitcher_id": 543037,
+      "opp": "NYM",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.8,
+      "lo": 1.6,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
