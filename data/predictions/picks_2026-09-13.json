@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-13",
+  "picks": [
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "BAL",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 5.8,
+      "lo": 2.9,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "MIL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 5.7,
+      "lo": 2.3,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.3,
+      "lo": 2.3,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Matthew Boyd",
+      "pitcher_id": 571510,
+      "opp": "PIT",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.0,
+      "lo": 2.1,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "NYM",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 4.9,
+      "lo": 2.3,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
