@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-14",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "CIN",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 3.0,
+      "hi": 12.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Corbin Burnes",
+      "pitcher_id": 669203,
+      "opp": "MIA",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.9,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nick Lodolo",
+      "pitcher_id": 666157,
+      "opp": "LAD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.6,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "SEA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.6,
+      "lo": 2.3,
+      "hi": 9.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "CWS",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 4.5,
+      "lo": 2.2,
+      "hi": 9.6,
+      "lean": "OVER"
+    }
+  ]
+}
