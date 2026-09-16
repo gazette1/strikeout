@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-16",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "CIN",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.4,
+      "lo": 2.7,
+      "hi": 10.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "WSH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.4,
+      "lo": 2.2,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Scherzer",
+      "pitcher_id": 453286,
+      "opp": "DET",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.9,
+      "lo": 1.4,
+      "hi": 7.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "pitcher_id": 669022,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 2.4,
+      "hi": 9.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "MIL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.7,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    }
+  ]
+}
