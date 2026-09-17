@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-17",
+  "picks": [
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "opp": "ATH",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 1.8,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "pitcher_id": 607625,
+      "opp": "HOU",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 5.0,
+      "lo": 1.5,
+      "hi": 7.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nolan McLean",
+      "pitcher_id": 690997,
+      "opp": "PHI",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "pitcher_id": 664285,
+      "opp": "CWS",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 2.4,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Michael King",
+      "pitcher_id": 650633,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.3,
+      "lo": 2.4,
+      "hi": 10.0,
+      "lean": "OVER"
+    }
+  ]
+}
