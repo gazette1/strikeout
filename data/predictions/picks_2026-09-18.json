@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-18",
+  "picks": [
+    {
+      "pitcher": "Chase Burns",
+      "pitcher_id": 695505,
+      "opp": "CHC",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 6.0,
+      "lo": 2.6,
+      "hi": 10.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "pitcher_id": 694973,
+      "opp": "KC",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 5.7,
+      "lo": 3.0,
+      "hi": 9.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "SF",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.6,
+      "lo": 2.9,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "pitcher_id": 656302,
+      "opp": "TEX",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.2,
+      "lo": 2.3,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "MIN",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.8,
+      "lo": 1.8,
+      "hi": 8.8,
+      "lean": "OVER"
+    }
+  ]
+}
