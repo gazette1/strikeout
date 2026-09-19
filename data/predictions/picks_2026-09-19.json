@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-19",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "SF",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.2,
+      "lo": 3.0,
+      "hi": 12.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "AZ",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.9,
+      "lo": 2.0,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "COL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 2.2,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bubba Chandler",
+      "pitcher_id": 696149,
+      "opp": "KC",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.5,
+      "hi": 8.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Reid Detmers",
+      "pitcher_id": 672282,
+      "opp": "MIN",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.5,
+      "lo": 2.0,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
