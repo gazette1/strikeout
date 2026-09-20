@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-20",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "BAL",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 6.3,
+      "lo": 2.5,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "TOR",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 6.3,
+      "lo": 2.3,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "NYM",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.2,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.7,
+      "lo": 2.0,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Corbin Burnes",
+      "pitcher_id": 669203,
+      "opp": "NYY",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 2.0,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
