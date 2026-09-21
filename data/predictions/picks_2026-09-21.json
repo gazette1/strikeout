@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-21",
+  "picks": [
+    {
+      "pitcher": "DJ Herz",
+      "pitcher_id": 687792,
+      "opp": "DET",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.3,
+      "lo": 1.9,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Shane Baz",
+      "pitcher_id": 669358,
+      "opp": "TOR",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.3,
+      "lo": 1.6,
+      "hi": 7.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Blade Tidwell",
+      "pitcher_id": 694918,
+      "opp": "MIN",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.2,
+      "lo": 1.3,
+      "hi": 7.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "River Ryan",
+      "pitcher_id": 689981,
+      "opp": "WSH",
+      "line": 0.5,
+      "market_line": 2.5,
+      "proj": 4.1,
+      "lo": 1.3,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Trey Yesavage",
+      "pitcher_id": 702056,
+      "opp": "BAL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.0,
+      "lo": 1.7,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
