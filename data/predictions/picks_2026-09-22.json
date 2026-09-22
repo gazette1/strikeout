@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-22",
+  "picks": [
+    {
+      "pitcher": "Zack Wheeler",
+      "pitcher_id": 554430,
+      "opp": "MIL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.5,
+      "lo": 2.4,
+      "hi": 10.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Gilbert",
+      "pitcher_id": 669302,
+      "opp": "HOU",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.5,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jared Jones",
+      "pitcher_id": 683003,
+      "opp": "STL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.9,
+      "lo": 1.9,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Chris Bassitt",
+      "pitcher_id": 605135,
+      "opp": "TOR",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.8,
+      "lo": 1.4,
+      "hi": 6.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Anderson",
+      "pitcher_id": 623454,
+      "opp": "WSH",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 2.4,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
