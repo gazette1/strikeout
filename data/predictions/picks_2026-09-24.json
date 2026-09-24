@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-24",
+  "picks": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "SD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.7,
+      "lo": 2.8,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "TB",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.4,
+      "lo": 2.5,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tyler Mahle",
+      "pitcher_id": 641816,
+      "opp": "CIN",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.8,
+      "lo": 1.2,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Grayson Rodriguez",
+      "pitcher_id": 680570,
+      "opp": "SEA",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.3,
+      "lo": 1.9,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryan Woo",
+      "pitcher_id": 693433,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.2,
+      "lo": 2.4,
+      "hi": 10.8,
+      "lean": "OVER"
+    }
+  ]
+}
