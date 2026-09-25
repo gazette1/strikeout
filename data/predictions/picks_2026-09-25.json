@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-25",
+  "picks": [
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "SF",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 2.8,
+      "hi": 12.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "TB",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.5,
+      "lo": 2.4,
+      "hi": 9.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "pitcher_id": 682243,
+      "opp": "LAA",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.2,
+      "lo": 2.2,
+      "hi": 10.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jacob deGrom",
+      "pitcher_id": 594798,
+      "opp": "MIN",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.0,
+      "lo": 2.2,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Joe Ryan",
+      "pitcher_id": 657746,
+      "opp": "TEX",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.6,
+      "lo": 2.2,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
