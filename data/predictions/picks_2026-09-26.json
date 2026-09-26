@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-26",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "SF",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.5,
+      "lo": 2.6,
+      "hi": 11.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hayden Wesneski",
+      "pitcher_id": 669713,
+      "opp": "ATH",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.5,
+      "lo": 1.6,
+      "hi": 7.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Trey Yesavage",
+      "pitcher_id": 702056,
+      "opp": "CIN",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.4,
+      "lo": 1.9,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Bailey Ober",
+      "pitcher_id": 641927,
+      "opp": "TEX",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.4,
+      "lo": 1.8,
+      "hi": 7.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jack Perkins",
+      "pitcher_id": 678022,
+      "opp": "HOU",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.4,
+      "lo": 1.6,
+      "hi": 9.2,
+      "lean": "OVER"
+    }
+  ]
+}
