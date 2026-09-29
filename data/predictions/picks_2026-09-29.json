@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-29",
+  "picks": [
+    {
+      "pitcher": "Chris Sale",
+      "pitcher_id": 519242,
+      "opp": "PHI",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 7.0,
+      "lo": 2.9,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Cam Schlittler",
+      "pitcher_id": 693645,
+      "opp": "BOS",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 5.4,
+      "lo": 2.5,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Michael King",
+      "pitcher_id": 650633,
+      "opp": "CHC",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 1.9,
+      "hi": 8.7,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "pitcher_id": 666200,
+      "opp": "ATL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.4,
+      "lo": 2.6,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Matthew Boyd",
+      "pitcher_id": 571510,
+      "opp": "SD",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.8,
+      "lo": 1.4,
+      "hi": 8.1,
+      "lean": "OVER"
+    }
+  ]
+}
