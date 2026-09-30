@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-30",
+  "picks": [
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.1,
+      "lo": 2.3,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Fried",
+      "pitcher_id": 608331,
+      "opp": "BOS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.8,
+      "lo": 2.2,
+      "hi": 10.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "pitcher_id": 686613,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.8,
+      "lo": 2.1,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nick Pivetta",
+      "pitcher_id": 601713,
+      "opp": "CHC",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.2,
+      "lo": 1.3,
+      "hi": 9.0,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Kevin Gausman",
+      "pitcher_id": 592332,
+      "opp": "SD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 3.8,
+      "lo": 1.8,
+      "hi": 8.2,
+      "lean": "OVER"
+    }
+  ]
+}
