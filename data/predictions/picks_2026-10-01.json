@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-01",
+  "picks": [
+    {
+      "pitcher": "Aaron Nola",
+      "pitcher_id": 605400,
+      "opp": "ATL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.7,
+      "lo": 1.9,
+      "hi": 8.1,
+      "lean": "OVER"
+    }
+  ]
+}
