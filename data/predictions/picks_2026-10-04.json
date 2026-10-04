@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-04",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.6,
+      "lo": 2.6,
+      "hi": 10.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Logan Henderson",
+      "pitcher_id": 701656,
+      "opp": "SD",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.2,
+      "lo": 1.8,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Michael King",
+      "pitcher_id": 650633,
+      "opp": "MIL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.1,
+      "lo": 1.5,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
