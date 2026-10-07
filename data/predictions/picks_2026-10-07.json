@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-07",
+  "picks": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "ATL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 5.9,
+      "lo": 3.0,
+      "hi": 8.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Max Fried",
+      "pitcher_id": 608331,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 2.1,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tyler Mahle",
+      "pitcher_id": 641816,
+      "opp": "LAD",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 3.8,
+      "lo": 1.0,
+      "hi": 7.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Walker Buehler",
+      "pitcher_id": 621111,
+      "opp": "MIL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.2,
+      "lo": 1.2,
+      "hi": 7.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nick Martinez",
+      "pitcher_id": 607259,
+      "opp": "NYY",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 2.7,
+      "lo": 0.8,
+      "hi": 7.7,
+      "lean": "OVER"
+    }
+  ]
+}
