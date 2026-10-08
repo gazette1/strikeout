@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-08",
+  "picks": [
+    {
+      "pitcher": "Hagen Smith",
+      "pitcher_id": 696146,
+      "opp": "CLE",
+      "line": 0.5,
+      "market_line": 2.5,
+      "proj": 3.9,
+      "lo": 0.8,
+      "hi": 5.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Parker Messick",
+      "pitcher_id": 800048,
+      "opp": "CWS",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 3.7,
+      "lo": 1.5,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
