@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "picks": [
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "CWS",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.5,
+      "lo": 2.2,
+      "hi": 9.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Sean Burke",
+      "pitcher_id": 680732,
+      "opp": "CLE",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.4,
+      "lo": 1.5,
+      "hi": 7.9,
+      "lean": "OVER"
+    }
+  ]
+}
