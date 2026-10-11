@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-11",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "LAD",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.6,
+      "lo": 2.6,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "opp": "MIL",
+      "line": 5.5,
+      "market_line": 7.5,
+      "proj": 6.3,
+      "lo": 2.3,
+      "hi": 11.7,
+      "lean": "OVER"
+    }
+  ]
+}
