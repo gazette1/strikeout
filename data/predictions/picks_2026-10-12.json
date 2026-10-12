@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-12",
+  "picks": [
+    {
+      "pitcher": "Logan Henderson",
+      "pitcher_id": 701656,
+      "opp": "LAD",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.5,
+      "lo": 1.6,
+      "hi": 8.3,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "opp": "CLE",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.5,
+      "lo": 1.6,
+      "hi": 8.8,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Yoshinobu Yamamoto",
+      "pitcher_id": 808967,
+      "opp": "MIL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 4.4,
+      "lo": 1.6,
+      "hi": 8.6,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Foster Griffin",
+      "pitcher_id": 656492,
+      "opp": "TB",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.9,
+      "lo": 1.1,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
