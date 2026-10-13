@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13",
+  "picks": [
+    {
+      "pitcher": "Freddy Peralta",
+      "pitcher_id": 642547,
+      "opp": "CLE",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.7,
+      "lo": 2.1,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Parker Messick",
+      "pitcher_id": 800048,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 3.7,
+      "lo": 1.3,
+      "hi": 8.3,
+      "lean": "OVER"
+    }
+  ]
+}
