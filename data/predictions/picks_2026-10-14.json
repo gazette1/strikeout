@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "picks": [
+    {
+      "pitcher": "Blake Snell",
+      "pitcher_id": 605483,
+      "opp": "MIL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.4,
+      "lo": 2.4,
+      "hi": 10.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Robert Gasser",
+      "pitcher_id": 688107,
+      "opp": "LAD",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.8,
+      "lo": 1.3,
+      "hi": 7.9,
+      "lean": "OVER"
+    }
+  ]
+}
