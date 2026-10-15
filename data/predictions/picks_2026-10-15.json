@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-15",
+  "picks": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "opp": "MIL",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.0,
+      "lo": 2.6,
+      "hi": 9.1,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "opp": "TB",
+      "line": 6.5,
+      "market_line": 8.5,
+      "proj": 4.5,
+      "lo": 2.0,
+      "hi": 9.2,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "CLE",
+      "line": 0.5,
+      "market_line": 2.5,
+      "proj": 4.0,
+      "lo": 1.6,
+      "hi": 8.4,
+      "lean": "OVER"
+    }
+  ]
+}
