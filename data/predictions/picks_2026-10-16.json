@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-16",
+  "picks": [
+    {
+      "pitcher": "Nick Martinez",
+      "pitcher_id": 607259,
+      "opp": "CLE",
+      "line": 0.5,
+      "market_line": 2.5,
+      "proj": 2.9,
+      "lo": 1.1,
+      "hi": 7.2,
+      "lean": "OVER"
+    }
+  ]
+}
