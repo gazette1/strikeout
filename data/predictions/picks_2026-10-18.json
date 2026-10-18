@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "picks": [
+    {
+      "pitcher": "Parker Messick",
+      "pitcher_id": 800048,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 3.9,
+      "lo": 1.6,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "opp": "CLE",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 3.9,
+      "lo": 1.5,
+      "hi": 8.6,
+      "lean": "OVER"
+    }
+  ]
+}
