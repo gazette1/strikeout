@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "picks": [
+    {
+      "pitcher": "Freddy Peralta",
+      "pitcher_id": 642547,
+      "opp": "CLE",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.7,
+      "lo": 2.1,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
