@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "TB",
+      "line": 4.5,
+      "market_line": 6.5,
+      "proj": 6.3,
+      "lo": 2.6,
+      "hi": 9.9,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Nick Martinez",
+      "pitcher_id": 607259,
+      "opp": "MIL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 2.8,
+      "lo": 0.9,
+      "hi": 7.5,
+      "lean": "OVER"
+    }
+  ]
+}
