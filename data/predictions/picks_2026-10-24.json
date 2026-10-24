@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "picks": [
+    {
+      "pitcher": "Logan Henderson",
+      "pitcher_id": 701656,
+      "opp": "TB",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.6,
+      "lo": 1.6,
+      "hi": 8.4,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "opp": "MIL",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 4.3,
+      "lo": 1.4,
+      "hi": 8.5,
+      "lean": "OVER"
+    }
+  ]
+}
