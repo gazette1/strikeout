@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-26",
+  "picks": [
+    {
+      "pitcher": "Freddy Peralta",
+      "pitcher_id": 642547,
+      "opp": "MIL",
+      "line": 2.5,
+      "market_line": 4.5,
+      "proj": 4.5,
+      "lo": 1.9,
+      "hi": 8.5,
+      "lean": "OVER"
+    },
+    {
+      "pitcher": "Robert Gasser",
+      "pitcher_id": 688107,
+      "opp": "TB",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 3.8,
+      "lo": 1.3,
+      "hi": 7.9,
+      "lean": "OVER"
+    }
+  ]
+}
