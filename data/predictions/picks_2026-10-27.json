@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-27",
+  "picks": [
+    {
+      "pitcher": "Griffin Jax",
+      "pitcher_id": 643377,
+      "opp": "MIL",
+      "line": 1.5,
+      "market_line": 3.5,
+      "proj": 4.9,
+      "lo": 1.6,
+      "hi": 8.7,
+      "lean": "OVER"
+    }
+  ]
+}
