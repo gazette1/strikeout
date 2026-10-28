@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "picks": [
+    {
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_id": 694819,
+      "opp": "TB",
+      "line": 3.5,
+      "market_line": 5.5,
+      "proj": 6.4,
+      "lo": 2.4,
+      "hi": 9.9,
+      "lean": "OVER"
+    }
+  ]
+}
